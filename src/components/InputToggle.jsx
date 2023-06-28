@@ -5,8 +5,9 @@ export const InputToggle = () => {
 const { isCheck, setIsCheck, getAnualPrice } = useInputHooksContext();
 
     return (
-        <label className="switch">
+        <label  htmlFor='checkbox' className="switch">
             <input
+                id='checkbox'
                 type="checkbox"
                 checked={isCheck}
                 onClick={getAnualPrice}

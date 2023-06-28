@@ -21,7 +21,9 @@ const PriceComponent = () => {
             <ul>
                 <li>100k pageviews </li>
                 <li>{isCheck ? formatter.format(newvalue) : formatter.format(rangeValue)} <span>/ month</span></li>
+                <label htmlFor="range" />
                 <input
+                    id="range"
                     type="range"
                     ref={inputRef} value={rangeValue}
                     onChange={(event) => {
