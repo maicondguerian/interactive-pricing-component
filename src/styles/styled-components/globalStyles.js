@@ -46,14 +46,17 @@ export const StyledCard = styled.div`
     width: 600px;
     display: flex;
     flex-direction: column;
-    gap: 1.2rem;
+    /* gap: 1.2rem; */
     border-radius: 10px;
     background-color: ${props => props.theme.primaryColors.White};
     box-shadow: 0 0.063rem 0.188rem rgb(31 50 81 / 12%), 0 0.063rem 0.125rem rgb(31 50 81 / 24%);
-    padding: 2rem 2.7rem;
+    padding: 3rem 2.7rem .5rem;
     z-index: 1000;
     overflow: hidden;
 
+    input{
+        margin: 1rem 0;
+    }
         >ul{
         display: flex;
         align-items: center;
