@@ -11,7 +11,6 @@ export const GlobalStyles = createGlobalStyle`
         appearance: none;
         width: 100%;
         height: 10px;
-        opacity: .7; 
         border-radius: 10px;
         position: relative;
         cursor: pointer;
@@ -244,6 +243,8 @@ export const BenefitsWrapper = styled.div`
         font-size: 14px;
         font-weight: 600;
         margin-right: .5rem;
+        color: ${props => props.theme.primaryColors.PaleBlue};
+
     }
 
     @media screen and (max-width: 740px){
