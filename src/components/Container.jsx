@@ -1,17 +1,13 @@
 import React from 'react'
 import { styled } from 'styled-components'
 
-const Teste = styled.div`
-
-`
-
 const Containers = styled.main`
     background-image: url('/bg-pattern.svg');
     background-repeat: no-repeat;
     background-size: auto;
     background-position: top left;
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,7 +37,7 @@ const Containers = styled.main`
         background-size: contain;
         width: 100%;
         height: 200px;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
         margin-top: -150px;
 
         h1{

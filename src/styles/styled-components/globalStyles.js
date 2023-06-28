@@ -113,7 +113,7 @@ export const MidDiv = styled.div`
    display: flex;
    align-items: center;
    justify-content: flex-end;
-   font-size: 14px;
+   font-size: 13px;
    gap: .8rem;
    color: ${props => props.theme.primaryColors.GrayishBlue};
    font-weight: 600;
