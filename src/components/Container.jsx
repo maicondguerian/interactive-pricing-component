@@ -7,7 +7,7 @@ const Containers = styled.main`
     background-size: auto;
     background-position: top left;
     width: 100vw;
-    height: 90vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,7 +37,7 @@ const Containers = styled.main`
         background-size: contain;
         width: 100%;
         height: 200px;
-        margin-bottom: 20px;
+        margin-bottom: 25px;
         margin-top: -150px;
 
         h1{
