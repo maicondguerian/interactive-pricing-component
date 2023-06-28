@@ -50,7 +50,7 @@ export const StyledCard = styled.div`
     border-radius: 10px;
     background-color: ${props => props.theme.primaryColors.White};
     box-shadow: 0 0.063rem 0.188rem rgb(31 50 81 / 12%), 0 0.063rem 0.125rem rgb(31 50 81 / 24%);
-    padding: 3rem 2.7rem .5rem;
+    padding: 3rem 2.3rem .5rem;
     z-index: 1000;
     overflow: hidden;
 
@@ -211,6 +211,7 @@ export const BenefitsWrapper = styled.div`
     height: 100%;
     font-weight: 500;
 
+
     ul{
         margin: 1.5rem 0;
         padding: 0;
@@ -224,8 +225,7 @@ export const BenefitsWrapper = styled.div`
         align-items: center;
         gap: 1rem;
         line-height: 2;
-
-     
+        font-size: 14px;
       img{
         width: 12px;
         height: 12px;
@@ -243,6 +243,7 @@ export const BenefitsWrapper = styled.div`
         cursor: pointer;
         font-size: 14px;
         font-weight: 600;
+        margin-right: .5rem;
     }
 
     @media screen and (max-width: 740px){
