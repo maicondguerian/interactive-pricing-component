@@ -55,7 +55,7 @@ export const StyledCard = styled.div`
     overflow: hidden;
 
     input{
-        margin: 1rem 0;
+        margin: 1.6rem 0;
     }
         >ul{
         display: flex;

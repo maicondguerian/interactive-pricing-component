@@ -54,7 +54,7 @@ const Card = () => {
             window.removeEventListener('resize', handleResize);
         };
     }, []);
-    
+
     return (
         <S.StyledCard>
             <PriceComponent />
