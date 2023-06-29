@@ -23,6 +23,7 @@ const PriceComponent = () => {
                 <li>{isCheck ? formatter.format(newvalue) : formatter.format(rangeValue)} <span>/ month</span></li>
                 <label htmlFor="range" />
                 <input
+                    aria-labelledby='range'
                     id="range"
                     type="range"
                     ref={inputRef} value={rangeValue}

@@ -5,9 +5,9 @@ export const InputToggle = () => {
 const { isCheck, setIsCheck, getAnualPrice } = useInputHooksContext();
 
     return (
-        <label  htmlFor='checkbox' className="switch">
+        <label className="switch">
             <input
-                id='checkbox'
+                aria-labelledby='checkbox'
                 type="checkbox"
                 checked={isCheck}
                 onClick={getAnualPrice}
