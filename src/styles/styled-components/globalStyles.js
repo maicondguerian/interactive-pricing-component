@@ -42,7 +42,7 @@ body{
 `
 export const StyledCard = styled.div`
     height: 400px;
-    width: 600px;
+    width: 570px;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
@@ -78,7 +78,7 @@ export const StyledCard = styled.div`
         }
         
         li:nth-child(2){
-            font-size: 34px;
+            font-size: 36px;
             font-weight: 800;
             color: ${props => props.theme.primaryColors.DarkDesaturatedBlue};
             display: flex;
@@ -230,8 +230,8 @@ export const BenefitsWrapper = styled.div`
         line-height: 2;
         font-size: 14px;
       img{
-        width: 12px;
-        height: 12px;
+        width: 9px;
+        height: 9px;
       }
     }
 

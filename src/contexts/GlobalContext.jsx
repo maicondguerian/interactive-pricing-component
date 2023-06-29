@@ -4,6 +4,7 @@ export const GlobalContext = React.createContext({});
 
 export const InputHooksProvider = ( {children} ) =>{
     const [rangeValue, setRangeValue] = React.useState(50);
+
     const [isCheck, setIsCheck] = React.useState(false);
     const [newvalue, setNewValue] = React.useState(rangeValue);
 
